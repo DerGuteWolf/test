@@ -1,0 +1,3 @@
+service {
+	"de.novoferm.mobile::BOOK";
+}
