@@ -1,0 +1,9 @@
+import = [
+            {
+                table = "de.novoferm.mobile::BOOK";
+                schema = "MOBILE";
+                file = "de.novoferm.mobile:BOOK.csv";
+                header = false;
+                delimField = ";";
+            }
+         ];

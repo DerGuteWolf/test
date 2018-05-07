@@ -4,6 +4,6 @@ namespace de.novoferm.mobile;
 entity BOOK {
     key Author    : String(100);
     key BookTitle : String(100);
-        ISBN      : Integer not null;
+        ISBN      : Decimal(13,0) not null;
         Publisher : String(100);
 };
