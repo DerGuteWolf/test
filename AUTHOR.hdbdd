@@ -1,0 +1,8 @@
+namespace de.novoferm.mobile;  
+@Schema : 'MOBILE'
+@Catalog.tableType: #COLUMN 
+entity AUTHOR {
+    key Author    : String(100);
+        Firstname : String(100);
+        Lastname : String(100);
+};

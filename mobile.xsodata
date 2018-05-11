@@ -1,3 +1,5 @@
 service {
-	"de.novoferm.mobile::BOOK";
+	"de.novoferm.mobile::BOOK"  navigates ("AUTHOR_BOOK" as "AUTHOR");  
+	"de.novoferm.mobile::AUTHOR" navigates ("AUTHOR_BOOK" as "BOOKSET");
+	association "AUTHOR_BOOK" with referential constraint principal "AUTHOR"("Author") multiplicity "1" dependent "BOOK"("Author") multiplicity "*"; 
 }
